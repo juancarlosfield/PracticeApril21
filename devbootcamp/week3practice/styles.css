@@ -1,0 +1,51 @@
+p {
+  color: red;
+  font-family: Gerogia;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: aqua
+}
+
+
+#content {
+  /*a border
+increased padding and margin
+a different background color than the rest of the page
+italic text*/
+border-style: solid;
+padding: 10px;
+margin: 10px;
+background-color: blue;
+font-style: italic;
+
+}
+
+ 
+  @media only screen and (min-width: 960px){
+  #sidebyside li {
+    display: inline;  }
+
+  }
+
+ /* #sidebyside{
+    display: block;
+  }*/
+
+
+
+  ul {
+    list-style: none;
+
+  }
+
+
+
+a:hover { 
+    background-color: red;
+}
+
+th {text-decoration: underline;}
+tr {background-color: gray}
+
